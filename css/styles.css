@@ -58,11 +58,10 @@ h1 {
   width: 70%;
 }
 
-/* Features sektion */
+/* Features section */
 
 #features{
-  text-align: center;
-  margin: 10% 3%;
+  padding:  7% 15%;
 }
 
 .features-icons{
@@ -77,12 +76,17 @@ h1 {
   color: #ff4c68;
 }
 
-.features-h3{
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+
+.feature-box h3{
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-.features-p{
+.feature-box p{
   color: #8f8f8f;
 }

@@ -142,3 +142,51 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 1020px) {
+  .title-image {
+    position: static;
+    width: 70%;
+    transform: rotate(0);
+    padding: 40px 0;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+
+.download-buttons-cta {
+  margin: 5% 3% 5% 0;
+  font-size: 0.8rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #ffff;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 7% 15%;
+}
+
+.footer-icons {
+  font-size: 0.8rem;
+  padding: 10px 10px 20px;
+}
